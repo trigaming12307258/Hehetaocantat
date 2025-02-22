@@ -2,7 +2,7 @@ loadring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/
 
        local Window = MakeWindow({
          Hub = {
-         Title = "TBoy Roblox",
+         Title = "script vi",
          Animation = "Youtube: TBoy Roblox"
          },
         Key = {
@@ -50,5 +50,10 @@ AddButton(Tab1o, {
     Callback = function() 
     getgenv().Team = "Marines" getgenv().Hide_Menu = false getgenv().Auto_Execute = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))() 
     AddButton(Tab1o, {
-     Name = "Redz Hu",
-    Callback = function()
+     Name = "hiru Hud",
+    Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))() 
+    AddButton(Tab1o, {
+     Name = "quantum",
+    Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
